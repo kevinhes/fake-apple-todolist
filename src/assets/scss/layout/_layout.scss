@@ -1,0 +1,31 @@
+.main-section {
+    min-height: 100vh;
+    background: $dark;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.todo-list-section {
+    max-width: 996px;
+    min-height: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: $primary;
+    border: 1px solid $gray;
+    display: flex;
+    overflow: hidden;
+}
+
+.sidebar-menu {
+    width: 40%;
+    background: $secondary;
+    border-right: 2px solid $dark;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.todolist {
+    width: 60%;
+}

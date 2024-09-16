@@ -1,0 +1,17 @@
+.form-control-search {
+    padding-left: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: $dark-gray;
+    color: lighten($dark-gray, 20%);
+    border-color: $gray;
+    transition: border-color .2s;
+    &:focus {
+        background: $dark-gray;
+        color: $light;
+        border-color: rgb(64,104,145);
+    }
+    &::placeholder {
+        color: lighten($dark-gray, 20%);
+    }
+}
